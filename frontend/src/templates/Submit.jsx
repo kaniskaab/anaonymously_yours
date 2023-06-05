@@ -51,7 +51,7 @@ export default function Submit() {
     //   }
    
 
-    const lnk = 'https://anonymously-yours.onrender.com/user/post'
+    const lnk = 'https://anonymous-you.onrender.com/user/post'
     // console.log(mail,message)
     const response = await fetch(lnk,{
        method:'POST',
