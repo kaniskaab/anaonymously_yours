@@ -33,7 +33,7 @@ async function send_mail(email, message) {
       from: "no-reply@info.com", // sender address
       to: email, // list of receivers
       subject: "Here's a message for you !!", // Subject line
-      text: `https://anonymous-you.onrender.com/${message}`, // plain text body
+      text: `https://anonymous-you.onrender.com/receive/${message}`, // plain text body
     });
 
     // console.log("Message sent: %s", info.messageId);
